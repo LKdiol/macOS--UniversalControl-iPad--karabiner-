@@ -26,47 +26,15 @@
                     },
           "to_if_held_down": [
                 {
-                    "key_code": "right_command",
+                    "key_code": "spacebar",
                     "modifiers": [
-                        "fn"
+                        "left_control",
+                        "left_command"
                     ]
                 }
             ]
-				}
-					]
-        },  {
-            "description": "Apple 유티버셜컨트롤 Karabiner 키 최적화용 한영전환 길게 누를 시 이모티콘",
-            "manipulators": [
-                { 
-            "type": "basic",
-            "conditions": [
-                {
-                    "type": "frontmost_application_if",
-                    "bundle_identifiers": [
-                                "com.apple.universalcontrol"
-                            ]
-                        }
-                    ],
-            "parameters": {
-                "basic.to_if_held_down_threshold_milliseconds": 500
-            },
-                    "from": {
-                        "key_code": "left_option",
-                        "modifiers": { "optional": [ "any" ] }
-                    },
-                    "to": {
-                        "key_code": "fn"
-                    },
-          "to_if_held_down": [
-                {
-                    "key_code": "right_option",
-                    "modifiers": [
-                        "fn"
-                    ]
                 }
-            ]
-				}
-					]
+                    ]
         },  {
             "description": "Apple_유니버셜컨트롤 오른쪽 Alt(Option)키 한영전환",
             "manipulators": [
@@ -92,14 +60,15 @@
                     },
           "to_if_held_down": [
                 {
-                    "key_code": "fn",
+                    "key_code": "spacebar",
                     "modifiers": [
-                        "e"
+                        "left_control",
+                        "left_command"
                     ]
                 }
             ]
-				}
-					]
+                }
+                    ]
         }
     ]
 }
